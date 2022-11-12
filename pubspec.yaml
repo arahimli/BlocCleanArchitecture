@@ -44,9 +44,12 @@ dependencies:
   shimmer: ^2.0.0
 
 dev_dependencies:
+  test:
   flutter_test:
     sdk: flutter
   flutter_gen: ^5.1.0+1
+  build_runner:
+  mockito: ^5.3.2
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -54,6 +57,7 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  http_mock_adapter: ^0.3.3
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

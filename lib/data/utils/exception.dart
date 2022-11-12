@@ -36,5 +36,22 @@ class ExceptionUtils{
       return UnexpectedException();
     }
   }
+  static Exception dioStatusCodeErrorHandle(int? statusCode){
+
+      switch (statusCode) {
+        case 401:
+          {
+            return AuthenticationException();
+          }
+        case 500:
+          {
+            return ServerException();
+          }
+        default:
+          {
+            return AuthenticationException();
+          }
+      }
+  }
 
 }
