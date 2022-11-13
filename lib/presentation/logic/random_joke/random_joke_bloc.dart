@@ -12,6 +12,7 @@ class RandomJokeBloc extends Bloc<RandomJokeEvent, RandomJokeState> {
 
   _getDataEvent(RandomJokeGetData event, emit) async{
     emit(RandomJokeLoading());
+    // emit(RandomJokeError(failure: SocketFailure()));
     final result = await jokeUseCases.getRandomJoke();
     result.fold(
       (failure) => emit(RandomJokeError(failure: failure)),

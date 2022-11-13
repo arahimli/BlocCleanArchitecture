@@ -1,11 +1,11 @@
 
+import 'package:bloc_clean_architecture/domain/entities/joke_entity.dart';
 import 'package:bloc_clean_architecture/domain/failures/failures.dart';
 import 'package:dartz/dartz.dart';
 
 import '../../domain/repositories/random_joke_repository.dart';
 import '../datasources/joke_datasource.dart';
 import '../exceptions/exceptions.dart';
-import '../models/joke_model.dart';
 
 
 class RandomJokeRepositoryImpl implements RandomJokeRepository{
@@ -14,7 +14,7 @@ class RandomJokeRepositoryImpl implements RandomJokeRepository{
   const RandomJokeRepositoryImpl({required this.jokeDatasource});
 
   @override
-  Future<Either<Failure, JokeModel>> getRandomJoke() async{
+  Future<Either<Failure, JokeEntity>> getRandomJoke() async{
     try{
       final result = await jokeDatasource.getRandomJokeApi();
       return right(result);
