@@ -1,13 +1,31 @@
 
-abstract class Failure with FailureMessage{}
+import 'package:equatable/equatable.dart';
 
-class ServerFailure extends Failure{}
+abstract class Failure with FailureMessage, EquatableMixin{}
 
-class SocketFailure extends Failure{}
+class ServerFailure extends Failure{
 
-class AuthenticationFailure extends Failure{}
+  @override
+  List<Object?> get props => [];
+}
 
-class UnexpectedFailure extends Failure{}
+class SocketFailure extends Failure{
+
+  @override
+  List<Object?> get props => [];
+}
+
+class AuthenticationFailure extends Failure{
+
+  @override
+  List<Object?> get props => [];
+}
+
+class UnexpectedFailure extends Failure{
+
+  @override
+  List<Object?> get props => [];
+}
 
 
 mixin FailureMessage {
