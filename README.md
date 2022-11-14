@@ -19,3 +19,10 @@ Some resources, packages and plugins used in the project:
 - [Mockito](https://pub.dev/packages/mockito)
 - [Bloc test](https://pub.dev/packages/bloc_test)
 - [Mocktail](https://pub.dev/packages/mocktail)
+
+
+![App](files/architecture.png)
+
+App's screenshot:
+
+![App](files/app_content.gif)
