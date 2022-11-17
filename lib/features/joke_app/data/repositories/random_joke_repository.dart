@@ -1,8 +1,8 @@
 
-import 'package:bloc_clean_architecture/domain/entities/joke_entity.dart';
-import 'package:bloc_clean_architecture/domain/failures/failures.dart';
 import 'package:dartz/dartz.dart';
 
+import '../../domain/entities/joke_entity.dart';
+import '../../domain/failures/failures.dart';
 import '../../domain/repositories/random_joke_repository.dart';
 import '../datasources/joke_datasource.dart';
 import '../exceptions/exceptions.dart';

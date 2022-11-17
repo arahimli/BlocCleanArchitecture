@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'package:bloc_clean_architecture/data/datasources/joke_datasource.dart';
-import 'package:bloc_clean_architecture/data/exceptions/exceptions.dart';
-import 'package:bloc_clean_architecture/data/models/joke_model.dart';
-import 'package:bloc_clean_architecture/data/utils/endpoints.dart';
+import 'package:bloc_clean_architecture/features/joke_app/data/datasources/joke_datasource.dart';
+import 'package:bloc_clean_architecture/features/joke_app/data/exceptions/exceptions.dart';
+import 'package:bloc_clean_architecture/features/joke_app/data/models/joke_model.dart';
+import 'package:bloc_clean_architecture/features/joke_app/data/utils/endpoints.dart';
 import 'package:dio/dio.dart';
 import 'package:http_mock_adapter/http_mock_adapter.dart';
 import 'package:mockito/annotations.dart';

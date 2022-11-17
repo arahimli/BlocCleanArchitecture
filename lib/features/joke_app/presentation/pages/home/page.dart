@@ -3,7 +3,7 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../injection.dart';
+import '../../../../../injection.dart';
 import '../../../domain/entities/joke_entity.dart';
 import '../../../domain/failures/failures.dart';
 import '../../logic/random_joke/bloc.dart';

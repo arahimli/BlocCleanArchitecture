@@ -1,9 +1,9 @@
 
 
-import 'package:bloc_clean_architecture/data/repositories/random_joke_repository.dart';
-import 'package:bloc_clean_architecture/domain/entities/joke_entity.dart';
-import 'package:bloc_clean_architecture/domain/failures/failures.dart';
-import 'package:bloc_clean_architecture/domain/usecases/joke_usecases.dart';
+import 'package:bloc_clean_architecture/features/joke_app/data/repositories/random_joke_repository.dart';
+import 'package:bloc_clean_architecture/features/joke_app/domain/entities/joke_entity.dart';
+import 'package:bloc_clean_architecture/features/joke_app/domain/failures/failures.dart';
+import 'package:bloc_clean_architecture/features/joke_app/domain/usecases/joke_usecases.dart';
 import 'package:dartz/dartz.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';

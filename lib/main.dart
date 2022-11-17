@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'common/theme.dart';
-import 'presentation/pages/home/page.dart';
+import 'core/theme.dart';
+import 'features/joke_app/presentation/pages/home/page.dart';
 import 'injection.dart' as di;
 
 void main() async{

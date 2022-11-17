@@ -1,6 +1,7 @@
 
-import 'package:bloc_clean_architecture/domain/entities/joke_entity.dart';
 import 'package:equatable/equatable.dart';
+
+import '../../domain/entities/joke_entity.dart';
 
 class JokeModel extends JokeEntity with  EquatableMixin{
   JokeModel({String? iconUrl, String? id, String? url, String? value})

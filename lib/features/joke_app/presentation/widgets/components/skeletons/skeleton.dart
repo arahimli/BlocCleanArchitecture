@@ -1,4 +1,4 @@
-import 'package:bloc_clean_architecture/common/theme.dart';
+import 'package:bloc_clean_architecture/core/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:shimmer/shimmer.dart';
 
