@@ -21,8 +21,6 @@ Some resources, packages and plugins used in the project:
 - [Mocktail](https://pub.dev/packages/mocktail)
 
 
-![App](files/architecture.png)
-
 App's screenshot:
 
 ![App](files/app_content.gif)
